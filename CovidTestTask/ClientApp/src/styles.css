@@ -25,6 +25,10 @@ code {
   font-size: 14px;
 }
 
+.colors-range {
+  text-align: center;
+}
+
 .faint {
-    font-weight:300;
+  font-weight: 300;
 }

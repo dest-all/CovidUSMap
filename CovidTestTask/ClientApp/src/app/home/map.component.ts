@@ -4,7 +4,7 @@ import { select, geoPath } from "d3";
 
 @Component({
   selector: 'map',
-  template: `<div id="{{anchorId}}"></div>`
+  template: `<div id="{{anchorId}}" style="margin-left:20%;"></div>`
 })
 export class MapComponent implements AfterContentChecked {
   @Input() geoJson: Object | undefined

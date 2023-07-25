@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
         </span>
     </span>
 
-    <span class="padder" style="background-color:greenyellow; color:greenyellow;border-radius:30px 0 0 30px; margin-left:2px;">{{padding}}</span>
+    <span class="padder" style="background-color:greenyellow; color:greenyellow;border-radius:30px 0 0 30px; margin-left:2px;" disabled>{{padding}}</span>
     <span class="padder" style="background-color:#ffc107; color:#ffc107;">{{padding}}</span>
     <span class="padder" style="background-color:#fd7e14; color:#fd7e14;">{{padding}}</span>
     <span class="padder" style="background-color:red; color:red;">{{padding}}</span>
@@ -24,4 +24,10 @@ import { Component } from '@angular/core';
 })
 export class ColorsRange {
   padding = "00000000";
+
+  colors = ColorsRange.colorsRange()
+
+  public static colorsRange(): string[] {
+    return ["greenyellow", "#ffc107", "#fd7e14", "red", "maroon"]
+  } 
 }
