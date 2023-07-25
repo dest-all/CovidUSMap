@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.colors-range span.padder {
+  width: 15px;
+  height: 5px;
+  font-size: 8px;
+}
+
+.colors-range span {
+  font-size: 14px;
+}
+
+.faint {
+    font-weight:300;
+}
